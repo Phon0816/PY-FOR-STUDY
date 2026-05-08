@@ -1,0 +1,5 @@
+s = input()
+digits = set("0123456789")
+present_digits = set(s)
+missing_digits = sorted(list(digits - present_digits))
+print(missing_digits)
